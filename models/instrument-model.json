@@ -1,0 +1,18 @@
+{
+  "modelVersion": "1.0.0",
+  "frequencyBands": {
+    "bass": [20, 250],
+    "lowMid": [250, 500],
+    "mid": [500, 2000],
+    "highMid": [2000, 8000],
+    "high": [8000, 20000]
+  },
+  "instrumentProfiles": {
+    "Drums": {"bass": 0.4, "mid": 0.3},
+    "Guitar": {"lowMid": 0.5},
+    "Piano": {"mid": 0.4},
+    "Bass": {"bass": 0.6},
+    "Vocals": {"highMid": 0.3},
+    "Synthesizer": {"high": 0.2}
+  }
+}
